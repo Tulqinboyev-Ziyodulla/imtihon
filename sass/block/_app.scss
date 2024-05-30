@@ -1,0 +1,108 @@
+.app {
+    margin-top: 80px;
+
+    .text {
+    display: flex;
+    justify-content: space-between;
+    
+        .up {
+            color: $bg-dark;
+            font-size: $size;
+            font-weight: 700;
+        }
+
+        .for {
+        color: $bg-grey;
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 12px;
+        }
+
+        .in {
+            color: $bg-grey;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+
+    .app__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-top: 48px;
+
+        .card {
+
+            .bold {
+                color: $bg-dark;
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            .in {
+                color: $bg-grey;
+                font-size: 12px;
+                font-weight: 400;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    button {
+        margin-top: 48px;
+        padding: 16px 24px 16px 24px;
+        border: 2px solid #d9dce2;
+        border-radius: 90px;
+        color: $bg-dark;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+
+        .app__wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+
+        .app__wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.asked {
+    margin-top: 100px;
+
+    .work {
+        text-align: center;
+
+        &__p {
+
+            p {
+                color: $bg-dark;
+                font-size: $size;
+                font-weight: 700;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 50px;
+
+            .head {
+                background-color: $bg-dark;
+                padding: 6px 12px 6px 12px;
+                color: #FCFCFD;
+                font-size: 14px;
+                font-weight: 700;
+                border: none;
+                border-radius: 20px;
+            }
+
+            button {
+                border: none;
+                color: $bg-grey;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+        .on {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 64px;
+
+            .number {
+                color: $bg-grey;
+                font-size: 16px;
+                font-weight: 500;
+                margin-right: 30px;
+            }
+
+            .flex {
+                display: flex;
+
+                p {
+                    color: $bg-dark;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                img {
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+}

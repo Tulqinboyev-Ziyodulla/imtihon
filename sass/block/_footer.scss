@@ -1,0 +1,54 @@
+.footer {
+    min-height: 100px;
+
+    .all {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__img {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            p {
+                color: $bg-dark;
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+
+        .about {
+
+            p {
+                color: $bg-grey;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .two {
+                margin-top: 30px;
+            }
+        }
+
+        .join {
+
+            .our {
+                color: $bg-dark;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .enter {
+                display: flex;
+                align-items: center;
+                gap: 18px;
+                margin-top: 30px;
+
+                p {
+
+                }
+            }
+        }
+    }
+}

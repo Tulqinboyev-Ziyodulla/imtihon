@@ -1,0 +1,80 @@
+.carousel {
+    margin-top: 80px;
+    
+    .text {
+
+        .up {
+            color: $bg-dark;
+            font-size: $size;
+            font-weight: 700;
+        }
+
+        .in {
+            color: $bg-grey;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 48px;
+
+        .card {
+
+            .bold {
+                color: $bg-dark;
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            .in {
+                color: $bg-grey;
+                font-size: 12px;
+                font-weight: 400;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    button {
+        margin-top: 48px;
+        padding: 16px 24px 16px 24px;
+        border: 2px solid #d9dce2;
+        border-radius: 90px;
+        color: $bg-dark;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

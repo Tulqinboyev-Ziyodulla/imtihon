@@ -1,0 +1,59 @@
+.icons {
+
+    .collection {
+
+        .item {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+
+        .collection {
+            display: flex;
+            flex-direction: column;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                
+                img {
+                    width: 300px;
+                    height: 100px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+
+        .collection {
+            display: flex;
+            flex-direction: column;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                
+                img {
+                    width: 300px;
+                    height: 100px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

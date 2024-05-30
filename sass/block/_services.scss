@@ -1,0 +1,109 @@
+.services {
+    margin-top: 100px;
+
+    &__text {
+        text-align: center;
+
+        .and {
+            color: $bg-grey;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .amazing {
+            color: $bg-dark;
+            font-size: $size;
+            font-weight: 700;
+            margin-top: 8px;
+            margin-left: 350px;
+        }
+
+        button {
+            background-color: #3B71FE;
+            padding: 16px 24px 16px 24px;
+            border-radius: 90px;
+            border: none;
+            color: #FCFCFD;
+            font-weight: 700;
+            font-size: 16px;
+            margin-top: 32px;
+        }
+    }
+
+    .free {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+
+        &__card {
+            background-color: #F4F5F6;
+            margin-top: 90px;
+            width: 357px;
+            min-height: 320px;
+            border-radius: 20px;
+            padding: 50px;
+
+            img {
+                background-color: #F4F5F6;
+            }
+
+            .easy {
+                background-color: #F4F5F6;
+                color: $bg-dark;
+                margin-top: 32px;
+                color: $bg-dark;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            .use {
+                background-color: #F4F5F6;
+                color: $bg-grey;
+                font-size: 14px;
+                font-weight: 400;
+                margin-top: 16px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1150px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+
+        .services__text {
+
+            .amazing {
+                margin-left: 300px;
+            }
+        }
+
+        .free {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+
+        .services__text {
+
+            .amazing {
+                margin-left: 300px;
+            }
+        }
+
+        .free {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+    }
+}

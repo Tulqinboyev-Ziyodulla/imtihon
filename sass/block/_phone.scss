@@ -1,0 +1,69 @@
+.car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+    &__text {
+
+        .plan {
+            color: $bg-grey;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .send {
+            color: $bg-dark;
+            font-size: $size;
+            font-weight: 700;
+            max-width: 450px;
+            margin-top: 16px;
+        }
+
+        .of {
+            color: $bg-grey;
+            font-size: 16px;
+            font-weight: 400;
+            max-width: 450px;
+            margin-top: 32px;
+        }
+
+        .car__title {
+            display: flex;
+            align-items: center;
+            border-radius: 90px;
+            margin-top: 40px;
+            width: 300px;
+            gap: 50px;
+            border: 2px solid #E6E8EC;
+            padding: 10px 10px;
+            
+            p {
+                color: $bg-grey;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .phone {
+
+        .car {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .phone {
+
+        .car {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
