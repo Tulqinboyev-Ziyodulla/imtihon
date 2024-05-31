@@ -39,3 +39,13 @@
         }
     }
 }
+
+
+@media (max-width: 1100px) {
+    .hero {
+
+        .hero__title {
+            display: none;
+        }
+    }
+}

@@ -71,3 +71,12 @@
         }
     }
 }
+
+
+@media (max-width: 1100px) {
+    .location {
+        display: none;
+        flex-direction: column;
+        margin: auto;
+    }
+}

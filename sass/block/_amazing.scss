@@ -132,3 +132,16 @@
       }
     }
   }
+
+
+  @media (max-width: 500px) {
+    .amazing {
+      display: none;
+      flex-direction: column;
+
+      .location-card {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
